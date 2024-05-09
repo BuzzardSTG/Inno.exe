@@ -1,9 +1,9 @@
 [Setup]
-AppName=Kyoei Install
+AppName=Installer
 AppVersion=1.0
-DefaultDirName={commonpf}\KyoeiInstall
+DefaultDirName={commonpf}\Installer
 OutputDir=Installer
-OutputBaseFilename=KyoeiInstaller
+OutputBaseFilename=Installer
 Compression=lzma
 SolidCompression=yes
 PrivilegesRequired=admin
@@ -22,13 +22,13 @@ english.RunDescriptionShortcut=OCR Automatic System Startup Shortcut
 english.RunDescriptionSettingsIni=Open settings.ini after installation
 english.RunDockerDesktop=Launch Docker Desktop
 
-japanese.RunDescriptionNvidia=Nvidia ƒhƒ‰ƒCƒo[ƒCƒ“ƒXƒg[ƒ‰[‚ğÀs
-japanese.RunDescriptionDocker=Docker ƒCƒ“ƒXƒg[ƒ‰[‚ğÀs
-japanese.RunDescriptionPython=Python ƒCƒ“ƒXƒg[ƒ‰[‚ğÀs
-japanese.RunDescriptionCuda=Nvidia CUDA ƒCƒ“ƒXƒg[ƒ‰[‚ğÀs
-japanese.RunDescriptionShortcut=OCR ©“® “Ç‚İæ‚è ƒVƒXƒeƒ€ ‹N“® ƒVƒ‡[ƒgƒJƒbƒg
-japanese.RunDescriptionSettingsIni=ƒCƒ“ƒXƒg[ƒ‹Œã‚É settings.ini ‚ğŠJ‚­
-japanese.RunDockerDesktop=Docker Desktop ‚ğ‹N“®
+japanese.RunDescriptionNvidia=Nvidia ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’å®Ÿè¡Œ
+japanese.RunDescriptionDocker=Docker ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’å®Ÿè¡Œ
+japanese.RunDescriptionPython=Python ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’å®Ÿè¡Œ
+japanese.RunDescriptionCuda=Nvidia CUDA ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’å®Ÿè¡Œ
+japanese.RunDescriptionShortcut=OCR è‡ªå‹• èª­ã¿å–ã‚Š ã‚·ã‚¹ãƒ†ãƒ  èµ·å‹• ã‚·ãƒ§ãƒ¼ãƒˆã‚«ãƒƒãƒˆ
+japanese.RunDescriptionSettingsIni=ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å¾Œã« settings.ini ã‚’é–‹ã
+japanese.RunDockerDesktop=Docker Desktop ã‚’èµ·å‹•
 
 [Types]
 Name: "full"; Description: "Full installation";
