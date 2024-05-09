@@ -1,9 +1,9 @@
 [Setup]
-AppName=Kyoei Install
+AppName=Installer
 AppVersion=1.0
-DefaultDirName={commonpf}\KyoeiInstall
+DefaultDirName={commonpf}\Installer
 OutputDir=Installer
-OutputBaseFilename=KyoeiInstaller
+OutputBaseFilename=Installer
 Compression=lzma
 SolidCompression=yes
 
@@ -17,10 +17,10 @@ english.RunDescriptionDocker=Run Docker Installer
 english.RunDescriptionPython=Run Python Installer
 english.RunDescriptionCuda=Run Nvidia Cuda Installer
 
-japanese.RunDescriptionNvidia=Nvidia ƒhƒ‰ƒCƒo[ƒCƒ“ƒXƒg[ƒ‰[‚ğÀs
-japanese.RunDescriptionDocker=Docker ƒCƒ“ƒXƒg[ƒ‰[‚ğÀs
-japanese.RunDescriptionPython=Python ƒCƒ“ƒXƒg[ƒ‰[‚ğÀs
-japanese.RunDescriptionCuda=Nvidia CUDA ƒCƒ“ƒXƒg[ƒ‰[‚ğÀs
+japanese.RunDescriptionNvidia=Nvidia ãƒ‰ãƒ©ã‚¤ãƒãƒ¼ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’å®Ÿè¡Œ
+japanese.RunDescriptionDocker=Docker ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’å®Ÿè¡Œ
+japanese.RunDescriptionPython=Python ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’å®Ÿè¡Œ
+japanese.RunDescriptionCuda=Nvidia CUDA ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ã‚’å®Ÿè¡Œ
 
 [Files]
 Source: "nvidia-driver.ps1"; DestDir: "{app}"; Flags: ignoreversion
